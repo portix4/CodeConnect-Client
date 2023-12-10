@@ -1,0 +1,23 @@
+.editTitleProfile {
+    padding: 20px;
+    color: #12F7D6;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.code {
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    padding-left: 10px;
+    height: 100px;
+    z-index: -1;
+}
+
+.code2 {
+    display: flex;
+    position: absolute;
+    margin-top: 400px;
+    padding-left: 1000px;
+    height: 100px;
+    z-index: -1;
+}

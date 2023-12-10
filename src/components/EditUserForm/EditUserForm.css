@@ -1,0 +1,71 @@
+.EditUserForm {
+    padding: 35px;
+    margin-bottom: 400px;
+}
+
+.buttonEditprofileForm {
+    color: white;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 2rem;
+    background: var(--Brand-1, #12F7D6);
+}
+
+.buttonEditprofileForm:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttonAvatar {
+    color: white;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 2rem;
+    background: var(--Brand-1, #12F7D6);
+
+}
+
+.buttonAvatar:hover {
+    color: white;
+    background-color: black;
+
+}
+
+.editUserFormControl {
+    background-color: #1A1E23;
+    border: none;
+    border-bottom: 2px solid #12F7D6;
+    border-color: none;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 50px;
+}
+
+.editUserFormControl:focus {
+    background-color: #1A1E23;
+    border: none;
+    border-bottom: 2px solid #12F7D6;
+    border-radius: 0;
+    color: white;
+}
+
+.editUserFormControl:valid {
+    color: white;
+}
+
+.editUserFormControl::placeholder {
+    color: white;
+}
+
+.form-control::placeholder {
+    background-color: transparent;
+}

@@ -1,0 +1,257 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.titleSignUp {
+    color: #12F7D6;
+    margin-top: 30px;
+}
+
+.buttonSignUp {
+    padding-bottom: 50px;
+}
+
+.loginForm {
+    padding-top: 40px;
+    padding-left: 60px;
+    display: inline-block;
+    width: 700px;
+    text-align: left;
+    margin-bottom: 100px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+
+}
+
+.loginForm p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #12F7D6;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.selectRol {
+    background-color: transparent;
+    color: #12F7D6;
+}
+
+.optionsRol {
+    background-color: #1A1E23;
+    color: #12F7D6 !important;
+}
+
+.selectionText {
+    background-color: #43454D;
+    color: #12F7D6;
+}
+
+.buttonAvatar {
+    background-color: #12F7D6;
+    display: flex;
+    padding: 12px 32px;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 32px;
+    margin: 10px;
+    padding: 16px 32px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200px;
+    line-height: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.avatarP {
+    color: white;
+    margin-top: 5px;
+}
+
+.signupControl {
+    background-color: #1A1E23;
+    border: none;
+    border-bottom: 2px solid #12F7D6;
+    border-radius: 0;
+    border-color: none;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.signupControl:focus {
+    background-color: #1A1E23;
+    border: none;
+    border-bottom: 2px solid #12F7D6;
+    border-radius: 0;
+    color: white;
+}
+
+.signupControl:valid {
+    color: white;
+}
+
+.signupControl::placeholder {
+    color: white;
+}
+
+.signupButton {
+    background-color: #12F7D6;
+    display: inline-block;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 32px;
+    margin-bottom: 100px;
+    padding: 16px 32px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signupButton:hover {
+    background-color: #12F7D6;
+}
+
+.signupButton:active {
+    background-color: #12F7D6;
+}
+
+.buttonImg {
+    padding-left: 15px;
+}
+
+.emailRow {
+    width: 50%;
+}
+
+.passwordRow {
+    width: 50%;
+}
+
+.signupButton {
+    width: 50%;
+}
+
+.nameText {
+    color: white;
+}
+
+.emailText {
+    color: white;
+}
+
+.passwordText {
+    color: white;
+}
+
+.streetText {
+    color: white;
+}
+
+.cityText {
+    color: white;
+}
+
+.countryText {
+    color: white;
+}
+
+.avatarText {
+    color: white;
+}
+
+.rolText {
+    color: white;
+}
+
+.phoneText {
+    color: white;
+}
+
+.skypeText {
+    color: white;
+}
+
+.descriptionText {
+    color: white;
+}
+
+.buttonSignup {
+    padding-left: 80px;
+}
+
+.formButton {
+    color: black;
+}
+
+
+
+.buttonSignUp {
+    margin-top: 90px;
+    padding: 16px 40px;
+    color: #12F7D6;
+    font-family: IBM Plex Mono;
+    font-size: 32px;
+    font-style: normal;
+    text-transform: capitalize;
+    border: 3px solid #12F7D6;
+    display: inline-block;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.buttonInside {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.buttonInside:focus {
+    background-color: transparent !important;
+    box-shadow: none;
+    outline: none;
+}
+
+.buttonInside:valid {
+    color: white;
+    box-shadow: none;
+    outline: none;
+}
+
+.buttonInside::placeholder {
+    color: white;
+    box-shadow: none;
+    outline: none;
+}
+
+.buttonInside:hover {
+    background-color: #1A1E23;
+    box-shadow: none;
+    outline: none;
+}
+
+.buttonInside:active {
+    background-color: #1A1E23;
+    box-shadow: none;
+    outline: none;
+}

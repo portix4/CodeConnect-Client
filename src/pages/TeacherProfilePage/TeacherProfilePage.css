@@ -1,0 +1,23 @@
+.profileTeacher {
+    text-align: center;
+    color: #12F7D6;
+    margin-top: 20px;
+}
+
+.commentsTitle {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #12F7D6;
+    font-size: 40px;
+}
+
+.iconComment {
+    display: flex;
+    position: absolute;
+    height: 60px;
+    padding-left: 200px;
+}
+
+.ratingFormTeacherProfile {
+    padding-bottom: 20px;
+}

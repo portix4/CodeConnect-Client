@@ -1,0 +1,88 @@
+.titlePage {
+    margin-top: 90px;
+    padding: 16px 40px;
+    color: #12F7D6;
+    font-family: IBM Plex Mono;
+    font-size: 32px;
+    font-style: normal;
+    text-transform: capitalize;
+    border: 3px solid #12F7D6;
+    display: inline-block;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.subtitleHowItWorksPage {
+    font-size: 15px;
+    text-align: center;
+    padding: 50;
+}
+
+.HowItWorksContainer {
+    font-size: 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.HowItWorksContainer p {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.colorLanguages {
+    color: #12F7D6;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.HowItWorksContainer h1 {
+    color: #12F7D6;
+    font-size: 80px;
+}
+
+.allPageHowItWorks {
+    background-size: cover;
+    background-position: center;
+}
+
+.row1 {
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.terminalImg {
+    display: flex;
+    position: absolute;
+    padding-left: 220px;
+    margin-top: -280px;
+    height: 150px;
+}
+
+.row2 {
+    padding: 30px;
+    font-size: 25px;
+}
+
+.riseUpImg {
+    display: flex;
+    position: absolute;
+    padding-left: 220px;
+    margin-top: 0px;
+    height: 140px;
+}
+
+.row3 {
+    padding: 30px;
+    font-size: 25px;
+}
+
+.row4 {
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.finalText {
+    color: #12F7D6;
+}

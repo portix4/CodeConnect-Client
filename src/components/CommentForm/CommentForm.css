@@ -1,0 +1,60 @@
+.formComments {
+    color: #12F7D6;
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    padding-top: 100px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.commentControl {
+    background-color: #1A1E23;
+    border: none;
+    border-bottom: 2px solid #12F7D6;
+    border-color: none;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 50px;
+}
+
+.commentControl:focus {
+    background-color: #1A1E23;
+    border: none;
+    border-bottom: 2px solid #12F7D6;
+    border-radius: 0;
+    color: white;
+}
+
+.commentControl:valid {
+    color: white;
+}
+
+.commentControl::placeholder {
+    color: white;
+}
+
+.messageIcon {
+    display: flex;
+    position: absolute;
+    padding-left: 330px;
+    margin-top: -360px;
+    height: 35px;
+}
+
+.buttonComment {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 2rem;
+    background: var(--Brand-1, #12F7D6);
+}
+
+.buttonComment:hover {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,78 @@
+.customTable {
+    width: 100%;
+    margin: auto;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 100px;
+    color: black;
+}
+
+.titleTable {
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #12F7D6;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 40px;
+}
+
+/* .arrowsDown {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    padding-left: 250px;
+    margin-top: -220px;
+} */
+
+.tableHeader,
+.tableRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerTitle,
+.rowTitle {
+    flex: 3;
+    padding: 10px;
+    text-align: left;
+    color: black;
+}
+
+.headerStatus,
+.rowStatus {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    color: black;
+}
+
+.tableHeader {
+    background-color: #12F7D6;
+    color: white;
+}
+
+.tableRow {
+    background-color: #98FAEC;
+    border-bottom: 1px solid #12F7D6;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #e0f7f5;
+}
+
+.tableRow:hover {
+    background-color: #b2ebe9;
+}
+
+.tableHeader {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.statusItem {
+    padding: 5px 0;
+    color: black;
+}
+
+.containerTableStudentList {
+    padding-bottom: 100px;
+}

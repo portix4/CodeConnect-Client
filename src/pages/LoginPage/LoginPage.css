@@ -1,0 +1,131 @@
+.loginTitle {
+    font-size: 80px;
+    padding-top: 40px;
+    color: #12F7D6;
+    padding-left: 540px;
+
+}
+
+.loginContainer {
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.iconLogin {
+    display: flex;
+    position: absolute;
+    color: white;
+    height: 90px;
+    padding-left: 360px;
+    margin-top: -90px;
+}
+
+.loginForm {
+    padding-top: 40px;
+    padding-left: 60px;
+    display: inline-block;
+    width: 700px;
+    text-align: left;
+    margin-bottom: 100px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.loginForm p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #12F7D6;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.loginControl {
+    background-color: #1A1E23;
+    border: none;
+    border-bottom: 2px solid #12F7D6;
+    border-radius: 0;
+    border-color: none;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.loginControl:focus {
+    background-color: #1A1E23;
+    border: none;
+    border-bottom: 2px solid #12F7D6;
+    border-radius: 0;
+    color: white;
+}
+
+.loginControl:valid {
+    color: white;
+}
+
+.loginControl::placeholder {
+    color: white;
+}
+
+.loginButton {
+    background-color: #12F7D6;
+    display: inline-block;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 32px;
+    margin-bottom: 100px;
+    padding: 16px 32px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+.loginButton:hover {
+    background-color: #12F7D6;
+
+}
+
+.loginButton:active {
+    background-color: #12F7D6;
+}
+
+.buttonImg {
+    padding-left: 15px;
+}
+
+.emailRow {
+    width: 50%;
+}
+
+.passwordRow {
+    width: 50%;
+}
+
+.loginButton {
+    width: 50%;
+}
+
+.emailText {
+    color: white;
+}
+
+.passwordText {
+    color: white;
+}
+
+.formButton {
+    color: black;
+}

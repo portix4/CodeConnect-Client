@@ -1,0 +1,45 @@
+.EditClassForm {
+    padding: 20px;
+}
+
+
+.buttonEditClass {
+    margin-top: 90px;
+    padding: 16px 20px;
+    color: #12F7D6;
+    font-family: IBM Plex Mono;
+    font-size: 32px;
+    font-style: normal;
+    text-transform: capitalize;
+    border: 3px solid #12F7D6;
+    display: inline-block;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonEditInside {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
+
+.buttonEditInside:hover {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.buttonEditClass:hover {
+    background-color: #12F7D6;
+
+}
+
+.buttonEditClass:active {
+    background-color: #12F7D6;
+}

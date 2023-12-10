@@ -1,0 +1,26 @@
+.AboutUsPage {
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 110px;
+    padding-bottom: 130px;
+}
+
+.textAboutUs {
+    font-size: 20px;
+}
+
+.AboutUsPage h1 {
+    color: #12F7D6;
+    padding-top: 50px;
+}
+
+.linkedinIcon {
+    width: 20%;
+    border-radius: 50%;
+    background-color: #12F7D6;
+    border: 2px solid transparent;
+}
+
+.linkedinLink {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,77 @@
+.NewsPage {
+    padding-bottom: 600px;
+}
+
+.searchBarNews {
+    font-family: IBM Plex Mono;
+    color: #12F7D6;
+    background-color: transparent !important;
+}
+
+.searchBarNews::placeholder {
+    color: #12F7D6;
+    opacity: 1;
+    background-color: transparent !important;
+}
+
+.searchBarNews:focus {
+    background-color: transparent !important;
+}
+
+.searchBarNews:active {
+    background-color: transparent !important;
+}
+
+.searchFormNews {
+    font-family: IBM Plex Mono;
+    color: #12F7D6;
+    background-color: transparent !important;
+}
+
+.searchFormNews::placeholder {
+    color: #12F7D6;
+    background-color: transparent !important;
+}
+
+.searchFormNews:focus {
+    background-color: transparent !important;
+    color: #12F7D6;
+}
+
+
+
+.titleNews {
+    color: #12F7D6;
+    text-align: center;
+    padding: 30px;
+}
+
+.allNewsPage {
+    padding: 25px;
+    padding-bottom: 40px;
+}
+
+.eachNew {
+    padding: 20px;
+    color: #12F7D6;
+    border: solid;
+    border-radius: 20px;
+    font-family: 'IBM Plex Mono', monospace
+}
+
+.linkNews {
+    text-decoration: none;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    color: #12F7D6;
+}
+
+.linkNews:hover {
+    text-decoration: none;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #23d295;
+}
+
+.sourceName {
+    padding-top: 10px;
+}

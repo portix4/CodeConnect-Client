@@ -1,0 +1,8 @@
+.alert {
+    font-size: 12px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    word-wrap: break-word;
+}

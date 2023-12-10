@@ -1,0 +1,22 @@
+.ErrorPage {
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-bottom: 68px;
+}
+
+.ErrorPage h1 {
+    font-size: 100px;
+}
+
+.ErrorPage h3 {
+    font-size: 40px;
+}
+
+.ErrorPage p {
+    color: grey;
+    font-size: 20px;
+}
+
+.ErrorPage img {
+    width: 90%;
+}

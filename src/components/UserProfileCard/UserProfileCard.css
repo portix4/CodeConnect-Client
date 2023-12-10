@@ -1,0 +1,104 @@
+.contentUser {
+    padding: 30px;
+    margin-top: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.colInfo img {
+    height: 30px;
+}
+
+.colInfo {
+    margin-top: 15px;
+}
+
+.contentUserImg {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+.nameProfile {
+    color: #12F7D6;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.iconUser {
+    display: flex;
+    position: absolute;
+    height: 125px;
+    padding-left: 950px;
+    margin-top: 0px;
+}
+
+.imageProfile {
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: #12F7D6 solid;
+}
+
+.editButton {
+    background-color: #12F7D6;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 60px;
+    padding: 16px 32px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    text-decoration: none;
+}
+
+.editButton:hover {
+    background-color: white;
+
+}
+
+.editButton:active {
+    background-color: #12F7D6;
+}
+
+
+.deleteButton {
+    background-color: #12F7D6;
+    color: black;
+    display: flex;
+    margin-left: 100px;
+    gap: 16px;
+    border-radius: 32px;
+    padding: 16px 32px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+.deleteButton:hover {
+    background-color: white;
+
+}
+
+.deleteButton:active {
+    background-color: #12F7D6;
+}
+
+
+.iconEdit {
+    display: flex;
+    justify-content: center;
+}
+
+.iconTrash {
+    display: flex;
+    justify-content: center;
+}

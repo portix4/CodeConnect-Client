@@ -1,0 +1,15 @@
+.errorLogin {
+    text-align: center;
+    justify-content: center;
+}
+
+.loginForm,
+.buttonLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginButtonx {
+    padding-left: 70px;
+}

@@ -1,0 +1,32 @@
+.progress {
+    background-color: #1a1e23;
+    --bs-progress-bar-bg: #12F7D6;
+    border: solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding-left: 5px;
+    height: 40px;
+    font-size: 24px;
+    margin: 50px;
+}
+
+.custom-progress-bar {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-left: 0;
+}
+
+.titleRating {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #12F7D6;
+}
+
+.noRatingText {
+    color: #12F7D6;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'IBM Plex Mono', monospace;
+}
